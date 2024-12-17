@@ -10,3 +10,4 @@ https://royceandrew.github.io/Chill/ is the link for use my static web
 ![image](https://github.com/user-attachments/assets/645f23f7-12c0-4122-a739-08c880b5842b)
 1. for going back to login page
 2. is basic navbar to bring user to space where they want so nothing special there 
+*i am using same image to reduce load website so the user not taking long time to render this website
