@@ -265,13 +265,26 @@ main {
 .listlanjut {
     height: 250px;
     border-radius: 5px;
-    
-    
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.listlanjut:hover {
+    transform: scale(0.9);
+   
 }
 
 .listhoriz {
     border-radius: 5px;
     height: 420px;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+    
+}
+
+.listhoriz:hover {
+    transform: scale(0.9);
+   
 }
 
 .list-parent h2 {
@@ -350,10 +363,15 @@ footer {
     
 }
 
+
 .listhoriz {
     border-radius: 5px;
     height: 300px;
+    transition: 0.3s ease-out;
+    cursor: pointer;
 }
+
+
 
 .genre {
     visibility: collapse;
