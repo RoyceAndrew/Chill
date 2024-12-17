@@ -1,5 +1,6 @@
 # How to use all of this static web task from my bootcamp
 https://royceandrew.github.io/Chill/ is the link for use my static web
+
 ![image](https://github.com/user-attachments/assets/e328e855-011a-4852-a63e-580f6cfeac4c)
 1. for going to homepage
 2. for go to register page
