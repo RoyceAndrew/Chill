@@ -54,7 +54,7 @@
 .input-text {
     background-color: var(--back-color);
     height: 50px;
-    width: 400px;
+    width: 350px;
     padding: 20px;
     border: 1px solid #FFFFFF40;
     border-radius: 25px;
@@ -330,6 +330,28 @@ footer {
 
    .arah {
     display: block
+}
+
+.mobile {
+    font-size: medium !important;
+    margin-bottom: 10px !important;
+}
+
+.mobile-h2 {
+    font-size: large;
+}
+
+.masuk {
+    margin-top:  -10px !important;
+}
+
+.input {
+    margin: 5px;
+}
+
+.chill-logo {
+    margin: 10px;
+    height: 40px;
 }
 
    
