@@ -111,11 +111,6 @@
 
 header {
     width: 100vw;
-}
-
-
-nav {
-    width: 100vw;
     height: 60px;
     background-color: var(--home-color);
     position: fixed;
@@ -128,13 +123,16 @@ nav {
     z-index: 999;
 }
 
+
+
+
 .nav-div {
-    position: fixed;
+    overflow: hidden;
     display: flex;
     align-items: center;
     gap: 60px;
     
-    overflow: hidden;
+    
 }
 
 .nav-div a {
@@ -313,7 +311,7 @@ main {
     display: flex;
     margin-top: 20px;
     
-    width: 100%;
+    width: 100vw;
     overflow-x: auto !important;
     justify-content: start;
     
@@ -391,6 +389,10 @@ footer {
 
    nav {
     padding: 0px;
+   }
+
+   .list {
+    width: 100%;
    }
 
    #hero {
