@@ -11,8 +11,8 @@
 }
 
 :root {
-    --back-color: rgba(20, 20, 20, 0.7);
-    --home-color: rgb(30, 30, 30);
+    --back-color: #181A1CD6;
+    --home-color: #181A1C;
 }
 
 
@@ -32,15 +32,17 @@
 }
 
 #login-form {
-    height: auto;
+    
     background-color: var(--back-color);
-    width: auto;
+    width: 529px;
+    
+    
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    padding: 20px;
-    border-radius: 10px;
+    justify-content: start;
+    padding: 40px;
+    border-radius: 16px;
 }
 
 .google {
@@ -48,22 +50,36 @@
 }
 
 .chill-logo {
-    margin: 30px;
+    margin-bottom: 37px;
+    width: 163px;
+    
+}
+
+.sandi-gap {
+    margin-bottom: 37px !important;
 }
 
 .input-text {
     background-color: var(--back-color);
     height: 50px;
-    width: 350px;
-    padding: 20px;
+    width: 449px;
+    padding: 14px 20px;
     border: 1px solid #FFFFFF40;
-    border-radius: 25px;
+    border-radius: 24px;
 }
 
 .input {
     display: flex;
     flex-direction: column;
-    margin: 10px 0px;
+    gap: 6px;
+}
+
+#username {
+    margin-bottom: 37px;
+}
+
+#sandi {
+    margin-bottom: 12px;
 }
 
 .forget {
@@ -71,7 +87,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 37px;
 }
 
 .masuk {
@@ -82,7 +98,6 @@
     height: 50px;
     font-size: 16px;
     cursor: pointer;
-    margin-top: 20px;
     transition: 0.3s ease-out;
 }
 
@@ -111,16 +126,17 @@
 
 header {
     width: 100vw;
-    height: 60px;
+    height: 94px;
     background-color: var(--home-color);
     position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 10px 20px;
+    padding: 25px 80px;
     top: 0;
     left: 0;
     z-index: 999;
+    
 }
 
 
@@ -130,15 +146,14 @@ header {
     overflow: hidden;
     display: flex;
     align-items: center;
-    gap: 60px;
-    
-    
+    gap: 80px;
 }
 
 .nav-div a {
     text-decoration: none;
     font-size: 18px;
     transition: 0.3s ease-out;
+    font-weight: 500;
 }
 
 .nav-div a:hover {
@@ -148,14 +163,26 @@ header {
 }
 
 .nav-div img {
-    height: 28px;
+    height: 26px;
+}
+
+.nav-img {
+    display: flex;
+    flex-direction: row;
+    font-size: 32px;
+    font-weight: 400px;
+    align-items: center;
+    gap: 4px;
+}
+
+.nav-img p {
+    font-size: 32px;
+    font-family: "Londrina Solid", serif;
+    font-weight: 400;
 }
 
 #profile-pct {
     height: 40px;
-    width: 40px;
-    object-fit: cover;
-    border-radius: 50%;
     
 }
 
@@ -165,10 +192,11 @@ header {
     object-fit: cover;
     height: auto;
     background-position: top;
-    max-height: 80vh;
+    max-height: 587px;
     z-index: 1;
     object-position: top;
-    min-height: 400px;
+    min-height: 225px;
+    margin-top: 94px;
 }
 
 .row {
@@ -179,10 +207,11 @@ header {
 }
 
 .arrow-left {
-    height: 50px;
-    width: 50px;
+    height: 44px;
+    width: 44px;
+    font-size: 24px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid #E7E3FC3B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -191,16 +220,17 @@ header {
     background-color: rgb(30, 30, 30);
     position: relative;
     left: 40px;
-    top: 100px;
+    top: 65px;
     z-index: 10;
     margin-left: -40px;
 }
 
 .arrow-right { 
-    height: 50px;
-    width: 50px;
+    height: 44px;
+    width: 44px;
+    font-size: 24px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid #E7E3FC3B;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -209,12 +239,12 @@ header {
     background-color: rgb(30, 30, 30);
     position: relative;
     right: 40px;
-    top: 100px;
+    top: 65px;
     z-index: 10;
 }
 
 .horiz-arrow {
-    top: 200px !important
+    top: 160px !important
 }
 
 #batasan {
@@ -240,7 +270,7 @@ header {
     display: flex;
     gap: 20px;
     flex-direction: column;
-    padding: 0px 20px;
+    padding: 0px 80px;
 }
 
 #hero-desc p {
@@ -257,7 +287,7 @@ header {
 }
 
 #mulai {
-    background-color: blue;
+    background-color: #0F1E93;
     border: none;
     padding: 10px 20px;
     border-radius: 20px;
@@ -288,23 +318,30 @@ main {
 }
 
 .bi-volume-mute {
+    width: 44px;
+    height: 44px ;
+    border-radius: 24px;
+    padding: 10px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
     border: 1px solid white;
-    padding: 10px 12px;
-    font-size: 20px;
-    background-color: var(--back-color);
-    border-radius: 50%;
+    font-size: 18px;
 }
 
 .list-parent {
     padding: 20px;
     display: flex;
-    align-items: start;
+    align-items: center;
     justify-content: center;
     width: 100%;
     flex-direction: column;
-    
-    
+    text-align: start;
+    margin: 40px 0px;
 }
+
+
 
 .list {
     gap: 20px;
@@ -313,12 +350,17 @@ main {
     
     width: 100vw;
     overflow-x: auto !important;
-    justify-content: start;
+    justify-content: center;
     
 }
 
+.list-parent div {
+    width: auto;
+}
+
 .listlanjut {
-    height: 245px;
+    height: 162px;
+    width: 302px;
     border-radius: 5px;
     transition: 0.3s ease-out;
     cursor: pointer;
@@ -331,7 +373,8 @@ main {
 
 .listhoriz {
     border-radius: 5px;
-    height: 420px;
+    height: 365px;
+    width: 234px;
     transition: 0.3s ease-out;
     cursor: pointer;
     
@@ -352,9 +395,20 @@ footer {
  align-items: center;
  padding: 50px;
  justify-content: space-between;
- border-top: 1px solid white;
+ border-top: 1px solid #E7E3FC3B;
  margin-top: auto;
 }
+
+#copyright img {
+    margin-bottom: 26px;
+    width: 163px;
+    height: 44px;
+}
+
+#copyright p {
+    color: #C1C2C4;
+    font-size: 16px;
+} 
 
 .genre {
     display: grid;
@@ -376,12 +430,113 @@ footer {
 
 .judul {
     margin-left: 30px;
+    font-size: 32px;
+    
 }
 
 @media (max-width: 900px) {
+    #copyright img {
+        margin-bottom: 16px;
+        width: 84px;
+        height: 25px;
+    }
+    
+    #copyright p {
+        color: #C1C2C4;
+        font-size: 12px;
+    } 
+
+    .list-parent {
+        align-items: start;
+        margin: 20px 0px;
+        padding: 0px 18px;
+    }
+
+
   .arrow-left,.arrow-right {
     display: none;
   }
+
+  .row {
+    width: 221px;
+    height: 25px;
+    display: flex;
+    gap: 8px;
+  }
+
+  .chill-logo {
+    width: 94px;
+    height: 24px;
+    margin-bottom: 20px;
+  }
+
+  #login-form {
+    background-color: var(--back-color);
+    width: 306px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 23px;
+    border-radius: 16px;
+}
+
+#login-form h2 {
+    font-size: 18px !important;
+}
+
+.sandi-gap {
+    margin-bottom: 20px !important;
+}
+
+#login-form p {
+    font-size: 10px !important;
+}
+
+.input {
+    font-size: 10px;
+}
+
+.input-text {
+    background-color: var(--back-color);
+    height: 28px;
+    width: 260px;
+    padding: 8px 12px;
+    font-size: 9px;
+}
+
+#username {
+    margin-bottom: 20px !important;
+}
+
+.login-title {
+    margin-bottom: 5px;
+}
+
+#sandi {
+    margin-bottom: 7px !important;
+}
+
+.masuk {
+    font-size: 10px !important;
+    height: 30px;
+    margin-top: 20px !important;
+}
+
+.forget {
+    margin-bottom: 0px;
+}
+
+.g-button {
+    font-size: 10px !important;
+    height: 30px;
+}
+
+.google {
+    width: 10px;
+    height: 10px;
+}
+
 
   .judul {
     margin-left: 0px;
@@ -395,8 +550,8 @@ footer {
     width: 100%;
    }
 
-   #hero {
-    margin-top: 60px;
+   #hero-img {
+    margin-top: 56px;
    }
 
    .arah {
@@ -412,17 +567,12 @@ footer {
     font-size: large;
 }
 
-.masuk {
-    margin-top:  -10px !important;
-}
 
-.input {
-    margin: 5px;
-}
 
-.chill-logo {
-    margin: 10px;
-    height: 40px;
+
+header {
+    height: 56px;
+    padding: 6px 20px;
 }
 
    
@@ -430,12 +580,13 @@ footer {
     position: fixed;
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 12px;
+    
 }
 
 .nav-div a {
     text-decoration: none;
-    font-size: 14px;
+    font-size: 10px;
 }
 
 #lanjut {
@@ -450,16 +601,17 @@ footer {
 }
 
 .listlanjut {
-    height: auto;
-    border-radius: 5px;
-    height: 150px;
     
+    border-radius: 5px;
+    height: 151px;
+    width: 309px;
 }
 
 
 .listhoriz {
     border-radius: 5px;
-    height: 300px;
+    height: 145px;
+    width: 95px;
     transition: 0.3s ease-out;
     cursor: pointer;
 }
@@ -494,9 +646,84 @@ footer {
 
 }
 
+.nav-div img {
+    height: 18px;
+}
+
+.nav-div p {
+    display: none;
+}
+
 #profile-pct {
     margin-right: 20px;
+    height: 20px;
+    width: 40px;
 }
+
+#hero-desc h1 {
+    font-size: 24px;
+}
+
+#mulai {
+    width: 55px;
+    height: 25px;
+    border-radius: 48px;
+    font-size: 12px;
+    padding: 4px 12px;
+}
+
+#hero-desc {
+    padding-left: 22px;
+    padding-bottom: 40px;
+    padding-right: 18px ;
+    justify-content: end;
+}
+
+#batasan {
+    border-radius: 24px !important;
+    width: 30px !important;
+    height: 25px !important;
+    padding: 4px !important;
+font-size: 12px !important;
+    
+}
+
+#selengkap {
+   
+    height: 25px !important;
+    border-radius: 48px  !important;
+    font-size: 12px !important;
+    padding: 4px 12px !important;
+    width: auto;
+    overflow-y: hidden;
+}
+
+.subtitle {
+    font-size: 16px !important;
+}
+
+.bi-volume-mute {
+    width: 25px;
+    height: 25px ;
+    border-radius: 19px;
+    padding: 6px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+    border: 1px solid white;
+}
+
+#hero-desc p {
+    font-size: 12px;
+    height: 29px;
+    width: 100%;
+}
+
+.footer-gap {
+    margin-bottom: 27px !important;
+}
+
 
 .judul {
     font-size: 20px !important;
