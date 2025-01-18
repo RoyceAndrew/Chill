@@ -3,11 +3,12 @@
     padding: 0px;
     box-sizing: border-box;
     color: white;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lato", serif;
     scroll-behavior: smooth;
     scroll-padding-top: 340px;
     overflow-x: hidden;
     text-decoration: none;
+
 }
 
 :root {
